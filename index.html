@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>双11来啦—上天猫，就够了</title>
+	<meta name="keywords" content="双11，淘宝，天猫，全球购，购物"/>
+	<meta name="description" content="双11是一个全球购物狂欢的节日"/>
+	<meta name="author" content="张博阳">
+	<link href="style/style.css" type="text/css" rel="stylesheet">
+	<script src="js/style.js"></script>
+	<script src="js/jquery.js"></script> 
+</head>
+<body>
+	<div class="content">
+		<div class="top">
+			<div class="nav">
+				<div class="nav_left">
+					<ul>
+						<li><a href="#">天猫首页</a></li>
+						<li><span>喵，欢迎来天猫</span></li>
+						<li><a href="#" id="login">请登录</a></li>
+						<li><a href="#">免费注册</a></li>
+					</ul>
+				</div>
+				<div class="nav_right">
+					<ul>
+						<li><a href="#" class="active">我的淘宝</a>
+							<ul class="second">
+								<li><a href="#">已买到的宝贝</a></li>
+								<li><a href="#">已卖出的宝贝</a></li>
+							</ul>
+						</li>
+						<li><a href="#">我关注的品牌</a></li>
+						<li><a href="#">购物车</a></li>
+						<li><a href="#" class="active">收藏夹</a>
+							<ul class="second">
+								<li><a href="#">收藏的宝贝</a></li>
+								<li><a href="#">收藏的店铺</a></li>
+							</ul>
+						</li>
+						<li><a href="#" class="taobao">淘宝网</a></li>
+						<li class="shop"><a href="#" class="zhichi">商家支持</a>
+							<dl>
+								<dt><h4>商家:</h4></dt>
+								<dd><a href="#">商家中心</a></dd>
+								<dd><a href="#">商家入驻</a></dd>
+								<dd><a href="#">运营服务</a></dd>
+								<dd><a href="#">商家品控</a></dd>
+								<dd><a href="#">商家工具</a></dd>
+								<dd><a href="#">商家规则</a></dd>
+								<dd><a href="#">天猫智库</a></dd>
+								<dd><a href="#">喵言喵语</a></dd>
+								<dt><h4>帮助</h4></dt>
+								<dd><a href="#">帮助中心</a></dd>
+							</dl>
+						</li>
+						<li><a href="#">网站导航</a></li>
+					</ul>
+				</div>
+			</div> <!--  nav结束 -->
+			<div class="logo">
+				<div class="logo_left">
+					<a href="#"><img src="images/logo.png" title="天猫" alt="天猫双十一狂欢节"></a>
+				</div>
+				<div class="logo_right">
+					<div class="search">
+						<input type="text" placeholder="搜索 天猫 商品/品牌/店铺">
+						<button type="submit">搜&nbsp;索</button>
+					</div>
+				</div>
+			</div> <!-- logo结束 -->
+		</div><!-- top结束 -->
+		<div class="center">
+			<div class="center_left" id="center_left">
+				<div class="ad">
+					<img src="images/shuang.png" height="69" width="104">
+					<span><a href="#">主会场&nbsp;&gt;</a></span>
+					<div class="ad_center">
+						<a href="#">大家电</a>
+						<a href="#">小家电</a>
+						<a href="#">3C数码</a>
+						<a href="#">图书乐器</a>
+						<a href="#">万店同庆</a>
+						<a href="#">手机</a>
+						<a href="#">家具</a>
+						<a href="#">建材</a>
+						<a href="#">家纺家饰</a>
+						<a href="#">百货</a>
+						<a href="#">全球家居</a>
+						<a href="#">母婴童装</a>
+						<a href="#">奶粉尿裤</a>
+						<a href="#">食品</a>
+						<a href="#">洗护清洁</a>
+						<a href="#">女装</a>
+						<a href="#">运动户外</a>
+						<a href="#">男装</a>
+						<a href="#">内衣</a>
+						<a href="#">鞋履</a>
+						<a href="#">箱包</a>
+						<a href="#">美妆大牌</a>
+						<a href="#">美妆尖货</a>
+						<a href="#">进口尖货</a>
+						<a href="#">食品保健</a>
+						<a href="#">汽车</a>
+						<a href="#">车品配件</a>
+						<a href="#">医药健康</a>
+						<a href="#">旅行</a>
+						<a href="#">通信</a>
+						<a href="#">品质生鲜</a>
+						<a href="#">天猫超市</a>
+						<a href="#">海外直营</a>
+						<a href="#">魅力惠</a>
+						<a href="#">丽人购</a>
+						<a href="#">聚划算</a>
+					</div>
+				</div>
+			</div><!-- center_left结束 -->
+			<div class="nav_change" id="nav_change">
+				<div class="nav_change_height">   <!-- 990px -->
+					<div class="nav_change_left">
+						<a href="#"><img src="images/nav.jpg"></a>
+						<a href="#"><span>主会场&gt;</span></a>
+					</div>
+					<div class="nav_change_right">
+						<a href="#">大家电</a>
+						<a href="#">小家电</a>
+						<a href="#">3C数码</a>
+						<a href="#">图书乐器</a>
+						<a href="#">万店同庆</a>
+						<a href="#">手机</a>
+						<a href="#">家具</a>
+						<a href="#">建材</a>
+						<a href="#">家纺家饰</a>
+						<a href="#">百货</a>
+						<a href="#">全球家居</a>
+						<a href="#">母婴童装</a>
+						<a href="#">奶粉尿裤</a>
+						<a href="#">食品</a>
+						<a href="#">洗护清洁</a>
+						<a href="#">女装</a>
+						<a href="#">运动户外</a>
+						<a href="#">男装</a>
+						<a href="#">内衣</a>
+						<a href="#">鞋履</a>
+						<a href="#">箱包</a>
+						<a href="#">美妆大牌</a>
+						<a href="#">美妆尖货</a>
+						<a href="#">进口尖货</a>
+						<a href="#">食品保健</a>
+						<a href="#">汽车</a>
+						<a href="#">车品配件</a>
+						<a href="#">医药健康</a>
+
+					</div>
+				</div>
+			</div>
+			<div class="center_right">
+               <div class="center_ad">
+					<a href="#"><i class="title"></i></a>
+               </div>
+               <div class="center_ad1">
+					<img src="images/zhineng.jpg">
+					<span><a href="#"><img src="images/guize.png"></a></span>
+					<div class="center_bg">
+						<img src="images/ad.jpg">
+						<a class="lianjie" href="http://www.baidu.com" target="_black" style="top: 0px; left: 124px; height: 200px; width: 495px;" title="全球好货">
+							<i class="title">全球好货</i>
+						</a>
+						<a href="http://www.tianmao.com" class="lianjie" target="_black" style="top: 0px; left: 619px; height: 200px; width: 495px;" title="新品首发">
+							<i class="title">新品首发</i>
+						</a>
+					</div>
+						<div class="tip" id="tip">
+							<div class="tip_top">
+								<img src="images/erweima.png" height="78" width="78">
+								<div class="tishi" ><a href="#quanqiu_top" class="light">全球生活</a></div>
+								<div class="tishi"><a href="#yushou">预售好货</a></div>
+								<div class="tishi"><a href="">更多精彩</a></div>
+								<div class="tishi"><a href="">猜你喜欢</a></div>
+								<div class="top_back" id="top_back"><a href="#"><img src="images/top.png"></a></div>
+							</div>
+						</div>  <!-- 右边回到上面的按钮 -->
+				    <div class="slip" id="slip">
+						<div class="slip_nav" id="slip_nav">
+							<ul>
+								<li class="act"><p>13:00</p>进口生活</li>
+								<li><p>14:00</p>母婴热卖</li>
+								<li><p>14:30</p>医药保健</li>
+								<li><p>15:00</p>食品酒水</li>
+								<li><p>15:30</p>旅行产品</li>
+								<li><p>16:00</p>居家必备</li>
+								<li><p>16:30</p>洗护用品</li>
+								<li><p>17:00</p>海淘爆款</li>
+								<li><p>18:00</p>数码生活</li>
+							</ul>
+						</div>
+						<div class="slip_con" id="slip_con">
+							<div class="slip_con1"  style="display:block" >
+								<a href="#"><img src="images/ad1.jpg" alt=""></a>
+								<a href="#"><img src="images/ad2.jpg" alt=""></a>
+								<a href="#"><img src="images/ad3.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none">
+								<a href="#"><img src="images/ad4.jpg" alt=""></a>
+								<a href="#"><img src="images/ad5.jpg" alt=""></a>
+								<a href="#"><img src="images/ad6.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none">
+								<a href="#"><img src="images/ad13.jpg" alt=""></a>
+								<a href="#"><img src="images/ad8.jpg" alt=""></a>
+								<a href="#"><img src="images/ad9.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none">
+								<a href="#"><img src="images/ad10.jpg" alt=""></a>
+								<a href="#"><img src="images/ad10.jpg" alt=""></a>
+								<a href="#"><img src="images/ad10.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none">
+								<a href="#"><img src="images/ad13.jpg" alt=""></a>
+								<a href="#"><img src="images/ad14.jpg" alt=""></a>
+								<a href="#"><img src="images/ad1.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none"> 
+								<a href="#"><img src="images/ad9.jpg" alt=""></a>
+								<a href="#"><img src="images/ad8.jpg" alt=""></a>
+								<a href="#"><img src="images/ad3.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none">
+								<a href="#"><img src="images/ad1.jpg" alt=""></a>
+								<a href="#"><img src="images/ad2.jpg" alt=""></a>
+								<a href="#"><img src="images/ad3.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none">
+								<a href="#"><img src="images/ad4.jpg" alt=""></a>
+								<a href="#"><img src="images/ad8.jpg" alt=""></a>
+								<a href="#"><img src="images/ad10.jpg" alt=""></a>
+							</div>
+							<div class="slip_con1"  style="display:none">
+								<a href="#"><img src="images/ad2.jpg" alt=""></a>
+								<a href="#"><img src="images/ad6.jpg" alt=""></a>
+								<a href="#"><img src="images/ad14.jpg" alt=""></a>
+							</div>
+						</div>
+				    </div>  <!-- 下面轮播图slip结束 -->
+				    <div class="quanqiu">
+						<div class="quanqiu_top" id="quanqiu_top">
+						    <div class="imgs" id="imgs">
+						    <b class="img1" id="img1"><img src="images/life.png" height="63" width="323" ></b>
+							<b class="img2" id="img2"><img src="images/fashion.png" height="50" width="323" ></b>
+							<b class="img2" id="img3"><img src="images/zhineng.png" height="50" width="323"></b>
+							</div>
+					<!-- 	<div class="bg1"><img src="images/bg.webp"></div> -->
+						
+                   			       <!--   轮播一 -->
+                 <div class="Con_top" id="Con_top">  <!--  问题    不能获取div改为ul li标签 -->
+                    	<div class="Con_tit" style='display: block;' id="Con_tit">
+						<div class="bg2">    
+							<a href="#"><img src="images/bg2.webp" width="700" height="80" style="margin-left:140px"></a>
+						</div>
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/ad1.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b2.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b1.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad4_2.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b3.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="d_ad">
+							<a href="#"><img src="images/d1.webp"></a>
+							<a href="#"><img src="images/d2.webp"></a>
+							<a href="#"><img src="images/d3.webp"></a>
+							<a href="#"><img src="images/d4.webp"></a>
+						</div>
+						<div class="meizhuang">
+							<a href="#"><img src="images/chaoliu.webp" alt=""></a>
+						</div>
+						<div class="chaoliu_ad">
+							<a href=""><img src="images/chaoliu1.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu2.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu3.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu5.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu6.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu7.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu2.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu3.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu1.webp" alt=""></a>
+						</div>
+						<div class="meizhuang">
+						    <a href="#"><img src="images/meizhuang.webp"></a>
+							<a href="#"><img src="images/meizhuang1.webp"></a>
+							<a href="#"><img src="images/meizhuang2.webp"></a>
+							<a href="#"><img src="images/meizhuang3.webp"></a>
+							<a href="#"><img src="images/meizhuang4.webp"></a>
+						</div>
+				        <div class="chaoliu_adList">
+							<ul>
+								<li>
+								    <a href="#"><img src="images/meizhuang_1.webp">
+									<div class="chaoliu_adList-title">神仙水护肤精华露330ml</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div>
+								</a></li>
+								<li><a href="#"><img src="images/meizhuang_2.webp">
+									<div class="chaoliu_adList-title">雅顿金致面部精华胶囊</div>
+									<div class="chaoliu_adList-price">¥360</div>
+								    <div class="chaoliu_adList-point">马上抢</div>
+								</a></li>
+								<li><a href="#"><img src="images/meizhuang_3.webp"><div class="chaoliu_adList-title">雪花秀润致焕活肌底精华露</div>
+									<div class="chaoliu_adList-price">¥600</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_4.webp"><div class="chaoliu_adList-title">雪花秀润致焕活肌底精华露</div>
+									<div class="chaoliu_adList-price">¥600</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_5.webp"><div class="chaoliu_adList-title">资生堂傲娇红妍肌活精华露</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_6.webp"><div class="chaoliu_adList-title">雪肌精蓝色宣言环保限量装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_7.webp"><div class="chaoliu_adList-title">传奇「小黑瓶」精华肌底液</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_8.webp"><div class="chaoliu_adList-title">百雀羚水能量6件套装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_9.webp"><div class="chaoliu_adList-title">AHC一代面膜</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_10.webp"><div class="chaoliu_adList-title">沙宣权志龙定制装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+							</ul>
+				        </div>   <!-- chaoliu_adList结束 --> <!--  轮播一结束 -->
+				    </div>
+					<div class="Con_tit" id="Con_tit" style="display:none">
+					     <div class="bg2">    
+							<a href="#"><img src="images/bg2.webp" width="700" height="80" style="margin-left:140px"></a>
+						</div>
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/ad1.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp" height="125" width="125">
+									<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+						</div>
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b1.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b2.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad4_2.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b3.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="d_ad">
+							<a href="#"><img src="images/d4.webp"></a>
+							<a href="#"><img src="images/d3.webp"></a>
+							<a href="#"><img src="images/d1.webp"></a>
+							<a href="#"><img src="images/d2.webp"></a>
+						</div>
+						<div class="meizhuang">
+							<a href="#"><img src="images/chaoliu.webp" alt=""></a>
+						</div>
+						<div class="chaoliu_ad">
+							<a href=""><img src="images/chaoliu2.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu1.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu3.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu5.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu7.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu6.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu1.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu2.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu1.webp" alt=""></a>
+						</div>
+						<div class="meizhuang">
+						    <a href="#"><img src="images/meizhuang1.webp"></a>
+							<a href="#"><img src="images/meizhuang.webp"></a>
+							<a href="#"><img src="images/meizhuang4.webp"></a>
+							<a href="#"><img src="images/meizhuang3.webp"></a>
+							<a href="#"><img src="images/meizhuang2.webp"></a>
+						</div>
+				        <div class="chaoliu_adList">
+							<ul>
+								<li>
+								    <a href="#"><img src="images/meizhuang_3.webp">
+									<div class="chaoliu_adList-title">神仙水护肤精华露330ml</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div>
+								</a></li>
+								<li><a href="#"><img src="images/meizhuang_2.webp">
+									<div class="chaoliu_adList-title">雅顿金致面部精华胶囊</div>
+									<div class="chaoliu_adList-price">¥360</div>
+								    <div class="chaoliu_adList-point">马上抢</div>
+								</a></li>
+								<li><a href="#"><img src="images/meizhuang_1.webp"><div class="chaoliu_adList-title">雪花秀润致焕活肌底精华露</div>
+									<div class="chaoliu_adList-price">¥600</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_7.webp"><div class="chaoliu_adList-title">雪花秀润致焕活肌底精华露</div>
+									<div class="chaoliu_adList-price">¥600</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_5.webp"><div class="chaoliu_adList-title">资生堂傲娇红妍肌活精华露</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_4.webp"><div class="chaoliu_adList-title">雪肌精蓝色宣言环保限量装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_7.webp"><div class="chaoliu_adList-title">传奇「小黑瓶」精华肌底液</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_10.webp"><div class="chaoliu_adList-title">百雀羚水能量6件套装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_8.webp"><div class="chaoliu_adList-title">AHC一代面膜</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_9.webp"><div class="chaoliu_adList-title">沙宣权志龙定制装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+							</ul>
+				        </div>   <!-- chaoliu_adList结束 --> <!--  轮播一结束 --><!--  轮播二结束 -->
+				   </div>
+				   	<div class="Con_tit" id="Con_tit" style="display:none">
+				        <div class="bg2">    
+								<a href="#"><img src="images/bg2.webp" width="700" height="80" style="margin-left:140px"></a>
+						</div>
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/ad1.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果33</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b2.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b1.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad4_2.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="quanqiumingdian">
+							<a href="#" class="line"><img src="images/b3.webp"></a>
+							<a href="#" class="item">
+								<img src="images/ad3_3.webp" height="125" width="125">
+								<div class="item-title">美国盐焗坚果</div>
+								<div class="item-price">￥298</div>
+								<div class="item-point">马上抢</div>
+							</a>
+							<a href="#" class="item">
+								<img src="images/ad3_2.webp">
+								<div class="item-title">蜂蜜杏核麦片</div>
+								<div class="item-price">￥69</div>
+								<div class="item-point">10抵15</div>
+							</a>
+						</div>  <!--  全球名店结束 -->
+						<div class="d_ad">
+							<a href="#"><img src="images/d1.webp"></a>
+							<a href="#"><img src="images/d2.webp"></a>
+							<a href="#"><img src="images/d3.webp"></a>
+							<a href="#"><img src="images/d4.webp"></a>
+						</div>
+						<div class="meizhuang">
+							<a href="#"><img src="images/chaoliu.webp" alt=""></a>
+						</div>
+						<div class="chaoliu_ad">
+							<a href=""><img src="images/chaoliu1.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu2.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu3.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu5.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu6.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu7.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu2.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu3.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu4.webp" alt=""></a>
+							<a href=""><img src="images/chaoliu1.webp" alt=""></a>
+						</div>
+						<div class="meizhuang">
+						    <a href="#"><img src="images/meizhuang.webp"></a>
+							<a href="#"><img src="images/meizhuang1.webp"></a>
+							<a href="#"><img src="images/meizhuang2.webp"></a>
+							<a href="#"><img src="images/meizhuang3.webp"></a>
+							<a href="#"><img src="images/meizhuang4.webp"></a>
+						</div>
+				        <div class="chaoliu_adList">
+							<ul>
+								<li>
+								    <a href="#"><img src="images/meizhuang_1.webp">
+									<div class="chaoliu_adList-title">神仙水护肤精华露330ml</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div>
+								</a></li>
+								<li><a href="#"><img src="images/meizhuang_2.webp">
+									<div class="chaoliu_adList-title">雅顿金致面部精华胶囊</div>
+									<div class="chaoliu_adList-price">¥360</div>
+								    <div class="chaoliu_adList-point">马上抢</div>
+								</a></li>
+								<li><a href="#"><img src="images/meizhuang_3.webp"><div class="chaoliu_adList-title">雪花秀润致焕活肌底精华露</div>
+									<div class="chaoliu_adList-price">¥600</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_4.webp"><div class="chaoliu_adList-title">雪花秀润致焕活肌底精华露</div>
+									<div class="chaoliu_adList-price">¥600</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_5.webp"><div class="chaoliu_adList-title">资生堂傲娇红妍肌活精华露</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_6.webp"><div class="chaoliu_adList-title">雪肌精蓝色宣言环保限量装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_7.webp"><div class="chaoliu_adList-title">传奇「小黑瓶」精华肌底液</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_8.webp"><div class="chaoliu_adList-title">百雀羚水能量6件套装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_9.webp"><div class="chaoliu_adList-title">AHC一代面膜</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+								<li><a href="#"><img src="images/meizhuang_10.webp"><div class="chaoliu_adList-title">沙宣权志龙定制装</div>
+									<div class="chaoliu_adList-price">¥1860</div>
+								    <div class="chaoliu_adList-point">马上抢</div></a></li>
+							</ul>
+				        </div>   <!-- chaoliu_adList结束 --> <!--  轮播一结束 --><!--  轮播二结束 --><!--  轮播三结束 -->
+				       </div> 	
+					</div>   
+				</div>
+				    </div>  <!-- 全球结束 -->
+				    <div class="yushou" id="yushou">
+						<div class="yushou_top">
+							<a href="#"><img src="images/yushou.webp"></a>
+							<div class="yushou_con">
+							<a href="#"><img src="images/goods/goods1.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods2.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods3.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods4.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods5.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods6.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods7.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods8.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods9.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods10.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods11.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods12.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods13.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods14.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods15.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods16.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods17.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods18.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods19.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods20.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods21.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods22.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods23.webp" class="yushou1"></a>
+							<a href="#"><img src="images/goods/goods10.webp" class="yushou1"></a>
+							</div>
+						</div>
+				    </div> <!--  yushou结束 -->
+               </div>
+			</div><!-- center_right结束 -->
+		</div> <!-- center结束 -->
+		<div class="bottom"></div><!--  bottom结束 -->
+		 
+	</div> <!-- content结束 -->
+
+	<!-- 做登录遮罩层 -->
+	<!-- <div id="dask"></div>
+<div class='dask-con' id='dask-con'><h1>登录</h1><div class='dask-center'><div class='dask-con-l'><form action='#'' method='post'><span class='login'><input type='text' placeholder='请输入登录帐号' name="text'><input type='password' placeholder='请输入登录密码' name='password'></span><div class='zidong'><input type='checkbox' name='radio' id='ra'><label for='ra'>自动登录</label><a href='#'>忘记密码</a></div><div class='dd'><a href='#'>立即注册</a><a href='#' class='dd-nav'>登录</a></div></form></div><div class='dask-con-r'><span><h4>一键授权，快速登录</h4><a href='#'>QQ帐号直接登录</a><a href='#' class='dask-tip'>新浪微博帐号登录</a></span></div><div class='close' id='close'>×</div></div></div> -->
+</body>
+</html>		
